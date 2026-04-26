@@ -9,3 +9,13 @@ database/backups/
 *.log
 *.sqlite
 *.pem
+
+.env
+node_modules/
+uploads/
+logs/
+database/*.db
+*.sqlite
+*.db
+*.log
+*.pem
