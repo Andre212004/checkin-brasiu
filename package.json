@@ -1,5 +1,5 @@
 {
-  "name": "checkin-server",
+  "name": "diary-server",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {

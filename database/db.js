@@ -6,7 +6,7 @@ const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
 const fs = require('fs');
 
-const dbPath = path.join(__dirname, 'checkins.db');
+const dbPath = path.join(__dirname, 'diary.db');
 const schemaPath = path.join(__dirname, '../schema.sql');
 
 // ============================================

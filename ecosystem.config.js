@@ -4,7 +4,7 @@
 
 module.exports = {
   apps: [{
-    name: 'checkin-api',
+    name: 'diary-api',
     script: './server.js',
     
     // Instâncias (1 é suficiente para Raspberry Pi)
@@ -25,11 +25,11 @@ module.exports = {
     // Variáveis de ambiente
     env: {
       NODE_ENV: 'development',
-      PORT: 3000
+      PORT: 3003
     },
     env_production: {
       NODE_ENV: 'production',
-      PORT: 3000
+      PORT: 3003
     },
     
     // Restart delays
