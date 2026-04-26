@@ -19,3 +19,7 @@ database/*.db
 *.db
 *.log
 *.pem
+
+logs
+uploads
+.env
