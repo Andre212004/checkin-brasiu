@@ -25,8 +25,6 @@ if [ ! -f "$RUNTIME_DIR/.env" ]; then
   cat > "$RUNTIME_DIR/.env" <<ENVFILE
 PORT=3003
 NODE_ENV=production
-API_KEY=$(openssl rand -hex 24)
-DIARY_API_KEY=$(openssl rand -hex 24)
 ENVFILE
 fi
 

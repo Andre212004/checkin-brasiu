@@ -1,7 +1,6 @@
 # Diary Secret Inventory
 
 ## Auto-gerados no bootstrap
-- `API_KEY`
 - `DIARY_API_KEY`
 
 ## Notas

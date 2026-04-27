@@ -14,7 +14,7 @@ const utilsRouter = require('./routes/utils');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const API_KEY = process.env.API_KEY;
+
 const DIARY_API_KEY = process.env.DIARY_API_KEY;
 
 if (!API_KEY && !DIARY_API_KEY) {
@@ -66,7 +66,7 @@ function requireApiKey(req, res, next) {
     return res.status(401).json({ error: 'API key obrigatória' });
   }
 
-  const validKeys = [API_KEY, DIARY_API_KEY].filter(Boolean);
+  const validKeys = [DIARY_API_KEY].filter(Boolean);
   if (!validKeys.includes(key)) {
     logRejected(req, 'API_KEY_INVALIDA');
     return res.status(401).json({ error: 'API key inválida' });
