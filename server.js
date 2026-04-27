@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3000;
 
 const DIARY_API_KEY = process.env.DIARY_API_KEY;
 
-if (!API_KEY && !DIARY_API_KEY) {
+if (!DIARY_API_KEY) {
   console.error('API key não definida no .env');
   process.exit(1);
 }
